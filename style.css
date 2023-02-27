@@ -1,0 +1,68 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+.container {
+  display: flex;
+  width: 921px;
+  height: 500px;
+  
+}
+.leftPanel {
+  width: 307px;
+  background-color: hsl(31, 77%, 52%);
+  padding: 48px;
+}
+.centerPanel {
+  width: 307px;
+  background-color: hsl(184, 100%, 22%);
+  padding: 48px;
+}
+.rightPanel {
+  width: 307px;
+  background-color: hsl(179, 100%, 13%);
+  padding: 48px;
+}
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 25px;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75) ;
+  line-height: 25px;
+  font-size: 15px;
+}
+img {
+  margin-bottom: 25px;
+}
+button {
+  margin-top: 80px;
+  background-color: hsla(0, 0%, 100%, 0.75);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.leftPanel button {
+  color: hsl(31, 77%, 52%) ;
+}
+.centerPanel button {
+  color: hsl(184, 100%, 22%) ;
+}
+.rightPanel button {
+  color: hsl(179, 100%, 13%) ;
+}
